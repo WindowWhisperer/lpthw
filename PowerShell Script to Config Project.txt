@@ -1,0 +1,21 @@
+PowerShell Script for Project Config & Virtual Env
+> .\.venvs\lpthw\Scripts\activate
+
+This will run the activate script for PowerShell, which configures the lpthw virtualev for your current PowerShell
+You'll know it worked because you'll see (lpthw) added to the PS prompt.
+Then you'll need to install the nose for running tests later:
+
+> pip install nose
+
+Creating the Skeleton project directory
+
+> mkdir projects
+> cd projects/
+> mkdir skeleton
+> cd skeleton
+> mkdir bin, name, tests, docs, #note in book it's NAME
+
+Set Up initial files
+
+new-item --type file name/__init__.py #NAME in book
+new-item --type file tests/__init__.py
